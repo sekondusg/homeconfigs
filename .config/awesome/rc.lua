@@ -122,6 +122,7 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 mytextclock = wibox.widget.textclock()
 
 awful.util.spawn_with_shell("~/.config/awesome/scripts/locker.sh&")
+beautiful.wallpaper = "~/Dropbox/Camera Uploads/2015-08-03 15.25.31.jpg"
 
 -- Create a wibox for each screen and add it
 local taglist_buttons = awful.util.table.join(
